@@ -8,6 +8,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
+  background: #000;
 }
 
 .container {
@@ -17,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background: white;
 }
 
 .container header {
@@ -60,4 +63,17 @@ body {
     margin-bottom: 15px;
 }
 
+.container .list-style p::before {
+    content: '\2756';
+    padding-right: 4px;
+}
 
+.container .internship {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.container .study-objective {
+    margin-left: 16px;
+}
